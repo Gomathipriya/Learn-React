@@ -13,3 +13,27 @@ class Hello extends React.Component {
 }
 
 ```
+
+To get our application to render on the screen we also have to use 
+
+```html
+
+ReactDOM.render(
+    <Hello />, 
+    document.getElementById("root")
+);
+
+```
+
+## Handling data
+
+Two types of data in React: props and state
+
+<pre>
+
+*  State - Private and can be changed from within the component itself.
+*  Props - External, and not controlled by the component itself. Passed down from components higher up the hierarchy, who also control the data.
+
+</pre>
+
+
