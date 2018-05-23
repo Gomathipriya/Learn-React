@@ -36,4 +36,28 @@ Two types of data in React: props and state
 
 </pre>
 
+## Props
+
+How to pass prop to a component
+
+```html
+
+ReactDOM.render(
+    <Hello message="my friend" />, 
+    document.getElementById("root")
+);
+
+```
+How to access this prop inside the component  
+
+```html
+
+class Hello extends React.Component {
+    render() {
+        return <h1>Hello {this.props.message}!</h1>;
+    }
+}
+
+```
+
 
