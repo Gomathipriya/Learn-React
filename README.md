@@ -4,7 +4,7 @@
 
 Everything in React is a component, and these usually take the form of JavaScript classes.
 
-<pre> 
+```html
 
 class Hello extends React.Component {
     render() {
@@ -12,4 +12,4 @@ class Hello extends React.Component {
     }
 }
 
-</pre>
+```
