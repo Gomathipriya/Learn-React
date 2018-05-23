@@ -60,4 +60,6 @@ class Hello extends React.Component {
 
 ```
 
+The reason we’re writing <code> {this.props.message} </code> with curly braces is because we need to tell the JSX that we want to add a JavaScript expression. This is called escaping.
+
 
